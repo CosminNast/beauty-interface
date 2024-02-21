@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+button{
+    border:none;
+}
+a{
+    color: white;
+}
+.frame{
+    margin:120px auto;
+    width: 222px;
+    background-color:rgb(79, 0, 128);
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    align-items: center;
+}
+.item{
+    background-color: purple;
+    width: 100%;
+    padding:8px 16px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url('./Poze/fata.jpg');
+    background-size: cover;
+    align-self: center;
+}
+
+.link{
+    font-family: 'Outfit', Courier, monospace;
+    font-size: 20px;
+    align-self: center;
+}
+
+
+
+.item:hover{
+    background-color: pink;
+}
+
